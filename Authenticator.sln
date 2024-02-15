@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34302.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authenticator.Api", "Authenticator.Api\Authenticator.Api.csproj", "{B0FFD5FB-D2DD-48B0-8D82-EC4818B736A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authenticator.Application", "Authenticator.Application\Authenticator.Application.csproj", "{F57EBE6D-81C8-441C-9784-85B638D7349D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker-files", "docker-files", "{932A1F82-06BE-4312-818F-FD2F1B0ACA49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0FFD5FB-D2DD-48B0-8D82-EC4818B736A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0FFD5FB-D2DD-48B0-8D82-EC4818B736A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0FFD5FB-D2DD-48B0-8D82-EC4818B736A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0FFD5FB-D2DD-48B0-8D82-EC4818B736A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57EBE6D-81C8-441C-9784-85B638D7349D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57EBE6D-81C8-441C-9784-85B638D7349D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57EBE6D-81C8-441C-9784-85B638D7349D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57EBE6D-81C8-441C-9784-85B638D7349D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A25A439-4EA0-4B68-865F-C1591A55AF45}
+	EndGlobalSection
+EndGlobal

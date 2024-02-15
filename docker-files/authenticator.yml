@@ -1,0 +1,14 @@
+version: '3.1'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres-authenticator
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: authenticator
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: '4uth3nt1cat0R!753951'
+    volumes:    
+      - ~/apps/postgres/authenticator:/var/lib/postgresql/data
